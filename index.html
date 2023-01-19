@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+
+   XO World / Mobile game
+
+  </title>
+
+  <meta name="title" content="XO World">
+
+   <meta name="description" content="Mobile game / Tic-tac-toe">
+
+   
+
+   <!-- Open Graph / Facebook -->
+
+   <meta property="og:type" content="website">
+
+   <meta property="og:url" content=`${location.href}`>
+
+   <meta property="og:title" content="XO World">
+
+    <meta name="description" content="Mobile game / Tic-tac-toe">
+
+   <!-- Twitter -->
+
+   <meta property="twitter:card" content="summary_large_image">
+
+   <meta property="twitter:url" content=`${location.href}`>
+
+   <meta property="twitter:title" content="XO World">
+
+      <meta name="description" content="Mobile game / Tic-tac-toe">
+
+   
+
+  <!-- HTML -->
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Custom Styles -->
+
+  <script src="main.js" defer></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  
+
+  
+
+  <header>
+
+ <div class="first_child">
+
+   <button id="open_dashboard" class="material-symbols-outlined">
+
+    dashboard
+
+   </button>
+
+   <h1>
+
+  XO World
+
+   </h1>   
+
+ </div>
+
+ <div class="second_child">
+
+   <div class="player_1_wrapper">
+
+  <input type="text" name="" id="player1_name" placeholder="player 1 name">
+
+   <span id="score1">0</span>
+
+   <span>Time - 00:00</span>
+
+   </div>
+
+   <p>VS</p>
+
+   <div class="player_2_wrapper">
+
+  <input type="text" name="" id="player2_name" placeholder="player 2 name">
+
+   <span id="score2">0</span>
+
+   <span>Time - 00:00</span>
+
+   </div>
+
+ </div>
+
+ </header>
+
+  
+
+  <div class="result_container">
+
+    <h3></h3>
+
+    <p></p>
+
+  <span></span>
+
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="dashboard_container">
+
+    <button id="close_dashboard" class="material-symbols-outlined">
+
+      close
+
+    </button>
+
+  <div class="head">
+
+   <h3>
+
+   Dashboard
+
+   </h3> 
+
+  </div>
+
+   <div class="content">
+
+     <div>
+
+     <p>Total match played - </p>
+
+     <span id="numberMatchPlayed"></span>
+
+     </div>
+
+     
+
+     <div>
+
+     <p>Total match won  - </p>
+
+     <span id="numberMatchWon"></span>
+
+     </div>
+
+     
+
+     <div>
+
+     <p>Total match lost  - </p>
+
+     <span id="numberMatchLost"></span>
+
+     </div>
+
+    <div>
+
+     <p>Total draw - </p>
+
+     <span id="numberDraw"></span> 
+
+    </div>
+
+   </div>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <div id="game">
+
+    <div class="timer">
+
+      <span class="material-symbols-outlined">
+
+        timer
+
+      </span>
+
+      00:00
+
+    </div>
+
+  <table id="board">
+
+    <tr>
+
+      <td id="cell-1"></td>
+
+      <td id="cell-2"></td>
+
+      <td id="cell-3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td id="cell-4"></td>
+
+      <td id="cell-5"></td>
+
+      <td id="cell-6"></td>
+
+    </tr>
+
+    <tr>
+
+      <td id="cell-7"></td>
+
+      <td id="cell-8"></td>
+
+      <td id="cell-9"></td>
+
+    </tr>
+
+  </table>
+
+  <div class="btns_wrapper">
+
+    <button id="start">Start</button>
+
+   <button id="restart-button">Restart</button>
+
+    <button id="reset-button">Reset</button>
+
+  </div>
+
+</div>
+
+  
+
+  
+
+  
+
+  
+
+</body>
+
+</html>
+
